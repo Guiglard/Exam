@@ -1,6 +1,6 @@
 package model;
 
-abstract class Car {
+public abstract class Car {
 
   private Motor engine;
   

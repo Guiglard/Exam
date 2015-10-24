@@ -1,7 +1,7 @@
 package main;
 
-import model.Clio;
-import model.Megane;
+import model.CarBrand;
+import model.Usine;
 
 public class Test {
 
@@ -13,8 +13,8 @@ public class Test {
    * "bzzzz"
    */
   public static void main(String[] args) {
-    new Clio().start();
-    new Megane().start();
+    Usine.buildCar(CarBrand.CLIO).start();
+    Usine.buildCar(CarBrand.MEGANE).start();
   }
 
 }
